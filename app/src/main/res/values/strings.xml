@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TeacherPortals</string>
+    <string name="studnet_list">Studnet List</string>
+    <string name="syllabus">Syllabus</string>
+    <string name="course">Course</string>
+    <string name="marks">Marks</string>
+    <string name="timetable">TimeTable</string>
+    <string name="upcomming_event">Upcomming Event</string>
+    <string name="leave_application">Leave Application</string>
+    <string name="holidays">Holidays</string>
+    <string name="submit">submit</string>
+    <string name="internal_exam_results">Internal Exam Results :</string>
+</resources>
