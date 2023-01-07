@@ -10,4 +10,5 @@
     <string name="holidays">Holidays</string>
     <string name="submit">submit</string>
     <string name="internal_exam_results">Internal Exam Results :</string>
+    <string name="lecture_no" />
 </resources>
