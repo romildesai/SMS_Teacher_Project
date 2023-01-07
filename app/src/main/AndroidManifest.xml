@@ -14,6 +14,15 @@
         android:theme="@style/Theme.Teacher"
         tools:targetApi="31">
         <activity
+            android:name=".activity_add_student"
+            android:exported="false" />
+        <activity
+            android:name=".activity_forgot_password"
+            android:exported="false" />
+        <activity
+            android:name=".activity_login_page"
+            android:exported="false" />
+        <activity
             android:name=".Leave_Application"
             android:exported="false" />
         <activity
