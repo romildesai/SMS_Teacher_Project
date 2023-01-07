@@ -3,30 +3,8 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable-v24/ic_dp_cropped.xml" value="0.13" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_branch.xml" value="0.124" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_course.xml" value="0.124" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_progress_bar.xml" value="0.124" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_student_list.xml" value="0.124" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_timetable_display.xml" value="0.13" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_syllabus.xml" value="0.2" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_time_table.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_time_table2.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_timetable.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_timetable2.xml" value="0.24010416666666667" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_leave_application.xml" value="0.25" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_results.xml" value="0.11302083333333333" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_syllabus.xml" value="0.19814814814814816" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_addstudents_card.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_chapter_bottomsheet.xml" value="0.225" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_chapter_card.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_class_card.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_course_card.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_day_card.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_leave_application.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_student_bottomsheet.xml" value="0.25416666666666665" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/leave_aprove_decline.xml" value="0.176" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_syllabus.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/drawable/ic_add_document.xml" value="0.1555" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/drawable/ic_calendar.xml" value="0.13" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/drawable/ic_course.xml" value="0.13" />
@@ -42,8 +20,27 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/layout/activity_syllabus.xml" value="0.24537037037037038" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/layout/student_card.xml" value="0.24537037037037038" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/layout/syllabus.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_baseline_calendar.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_cpassword.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_gender.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_resource_class.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_student.xml" value="0.20092592592592592" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_time_table2.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_forgot_password.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_leave_application.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_login_page.xml" value="0.332312404287902" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_results.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_syllabus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_addstudents_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_chapter_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_class_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_course_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_day_card.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_leave_application.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_student_bottomsheet.xml" value="0.20416666666666666" />
       </map>
     </option>
   </component>
