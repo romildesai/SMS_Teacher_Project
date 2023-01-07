@@ -14,7 +14,7 @@
         android:theme="@style/Theme.Teacher"
         tools:targetApi="31">
         <activity
-            android:name=".Add_Time_Table"
+            android:name=".Add_Syllabus"
             android:exported="false" />
         <activity
             android:name=".Results"

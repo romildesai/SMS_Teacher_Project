@@ -28,11 +28,6 @@ class MainActivity : AppCompatActivity() {
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.parseColor("#014f86")))
 
 
-        val student_list = findViewById<CardView>(R.id.student_list)
-        student_list.setOnClickListener{
-            val intent = Intent(this,Syllabus::class.java)
-            startActivity(intent)
-           }
 
         val syllabus= findViewById<CardView>(R.id.syllabus)
         syllabus.setOnClickListener{

@@ -11,4 +11,7 @@
     <string name="submit">submit</string>
     <string name="internal_exam_results">Internal Exam Results :</string>
     <string name="lecture_no" />
+    <string name="title">title</string>
+    <string name="select_a_file">select_a_file</string>
+
 </resources>

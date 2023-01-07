@@ -4,13 +4,19 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable-v24/ic_dp_cropped.xml" value="0.13" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_branch.xml" value="0.124" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_course.xml" value="0.124" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_progress_bar.xml" value="0.124" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_student_list.xml" value="0.124" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_timetable_display.xml" value="0.13" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_syllabus.xml" value="0.2" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_time_table.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_time_table2.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_timetable.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_timetable2.xml" value="0.24010416666666667" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_main.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_results.xml" value="0.11302083333333333" />
-        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_syllabus.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_syllabus.xml" value="0.19814814814814816" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/item_addstudents_card.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/drawable/ic_add_document.xml" value="0.1555" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/Teacher/app/src/main/res/drawable/ic_calendar.xml" value="0.13" />
