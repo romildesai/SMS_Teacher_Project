@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_add_student"
+    tools:context=".activity_edit_profile"
     android:background="@color/white"
     android:orientation="vertical">
 
@@ -167,11 +167,12 @@
             <ImageView
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-               android:src="@drawable/ic_gender"
-                app:startIconTint="@color/black"
+                android:src="@drawable/ic_gender"
                 android:layout_weight="1"
+                app:startIconTint="@color/black"
                 android:layout_marginStart="20dp">
             </ImageView>
+
 
             <RadioButton android:id="@+id/radio_pirates"
                 android:layout_width="wrap_content"
@@ -181,8 +182,8 @@
                 />
             <RadioButton android:id="@+id/radio_ninjas"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_weight="1"
+                android:layout_height="wrap_content"
                 android:text="Female"
                 />
 
@@ -360,7 +361,7 @@
             android:paddingTop="15dp"
             android:paddingEnd="15dp"
             android:paddingBottom="15dp"
-            android:text="Sign Up"
+            android:text="UPDATE"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
