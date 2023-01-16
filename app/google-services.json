@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "407364130245",
+    "project_id": "sms-teacher-7c361",
+    "storage_bucket": "sms-teacher-7c361.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407364130245:android:bdcbf804971bcbb954e7ac",
+        "android_client_info": {
+          "package_name": "com.example.teacher"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407364130245-ov9i2c25hbe339asdrb9d5di0btrml23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCitw6Urwf4b_-JzRde2Axw-vxgjVt8cfE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407364130245-ov9i2c25hbe339asdrb9d5di0btrml23.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
