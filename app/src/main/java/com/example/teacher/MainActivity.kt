@@ -41,5 +41,11 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }
 
+        val studentList  = findViewById<CardView>(R.id.student_list)
+        studentList.setOnClickListener{
+            val intent = Intent(this,Student_List::class.java)
+            startActivity(intent)
+        }
+
     }
     }
