@@ -361,7 +361,7 @@
             android:paddingTop="15dp"
             android:paddingEnd="15dp"
             android:paddingBottom="15dp"
-            android:text="UPDATE"
+            android:text="Update student"
             android:textColor="@color/white"
             android:textStyle="bold" />
 
