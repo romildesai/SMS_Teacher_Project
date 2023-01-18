@@ -118,26 +118,8 @@
 
 
     </LinearLayout>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="20dp"
-        android:text="Don't have an account please"
-        android:textColor="@color/black"
-        android:textStyle="bold"
-        android:layout_gravity="center"
-        android:layout_marginTop="30dp">
 
-    </TextView>
-    <TextView
-        android:id="@+id/sign_up"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="sing up"
-        android:autoLink="all"
-        android:textStyle="bold"
-        android:textColor="@color/design_default_color_error"
-        android:layout_marginStart="150dp">
-    </TextView>
+
 
 
 </androidx.appcompat.widget.LinearLayoutCompat >
