@@ -45,9 +45,12 @@
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_baseline_calendar.xml" value="0.1315" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_baseline_person_24.xml" value="0.1315" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_baseline_phone_24.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_course.xml" value="0.144" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_cpassword.xml" value="0.1315" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_gender.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_graduation.xml" value="0.144" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_resource_class.xml" value="0.1315" />
+        <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_username.xml" value="0.144" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_student.xml" value="0.20092592592592592" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_teacher.xml" value="0.20416666666666666" />
         <entry key="..\:/Users/hp/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_time_table2.xml" value="0.20416666666666666" />
