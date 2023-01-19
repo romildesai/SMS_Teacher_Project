@@ -14,6 +14,9 @@
         android:theme="@style/Theme.Teacher"
         tools:targetApi="31">
         <activity
+            android:name=".activity_add_teacher"
+            android:exported="false" />
+        <activity
             android:name=".Upcomming_Event"
             android:exported="false" />
         <activity
