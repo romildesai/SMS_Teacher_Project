@@ -22,10 +22,10 @@
             <androidx.appcompat.widget.AppCompatImageView
                 android:layout_width="150dp"
                 android:layout_height="150dp"
-
                 android:layout_gravity="center"
                 android:src="@drawable/ic_timetable_display" />
         </androidx.appcompat.widget.LinearLayoutCompat>
+
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/att_lec_no_field"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
@@ -53,7 +53,6 @@
             android:layout_height="wrap_content"
             android:hint="Subject Name"
             android:layout_marginTop="7dp"
-
             app:startIconDrawable="@drawable/ic_timetable_sub_name"
             app:startIconTint="@color/blue"
             app:boxStrokeColor="@color/blue"

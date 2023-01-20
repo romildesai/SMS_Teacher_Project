@@ -36,16 +36,14 @@
         app:boxStrokeColor="@color/blue"
         app:startIconTint="@color/black"
         app:startIconDrawable="@drawable/ic_username"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter Username"
             android:inputType="text"
-            android:textColor="@color/black"
-            />
+            android:textColor="@color/black" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
@@ -68,17 +66,14 @@
         app:startIconDrawable="@drawable/ic_cpassword"
         app:startIconTint="@color/black"
         android:backgroundTint="@color/white"
-
-        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-        >
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="Enter password"
             android:inputType="textPassword"
-            android:textColor="@color/black"
-            />
+            android:textColor="@color/black" />
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView

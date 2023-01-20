@@ -39,9 +39,8 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_id_card"
             app:startIconTint="@color/black"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -65,9 +64,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_username"
             app:startIconTint="@color/black"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -91,9 +88,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_email"
             app:startIconTint="@color/black"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -118,10 +113,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_password"
             app:startIconTint="@color/black"
-
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -146,9 +138,8 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_cpassword"
             app:startIconTint="@color/black"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -161,8 +152,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="20dp"
-            >
+            android:layout_marginTop="20dp">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -170,22 +160,21 @@
                 android:src="@drawable/ic_gender"
                 android:layout_weight="1"
                 app:startIconTint="@color/black"
-                android:layout_marginStart="20dp">
-            </ImageView>
+                android:layout_marginStart="20dp"/>
+
 
 
             <RadioButton android:id="@+id/radio_pirates"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="Male"
-                />
+                android:text="Male" />
+
             <RadioButton android:id="@+id/radio_ninjas"
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
-                android:text="Female"
-                />
+                android:text="Female" />
 
         </RadioGroup>
 
@@ -205,9 +194,8 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_baseline_calendar"
             app:startIconTint="@color/black"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -231,9 +219,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_baseline_phone_24"
             app:startIconTint="@color/black"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -258,9 +244,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_semester__1_"
             app:startIconTint="@color/black"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -285,9 +269,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_resource_class"
             app:startIconTint="@color/black"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -312,9 +294,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_branch"
             app:startIconTint="@color/black"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -339,9 +319,7 @@
             android:textColorHint="@color/black"
             app:startIconDrawable="@drawable/ic_fees"
             app:startIconTint="@color/black"
-
-            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
-            >
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
