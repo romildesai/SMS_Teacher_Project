@@ -14,16 +14,21 @@
         android:theme="@style/Theme.Teacher"
         tools:targetApi="31">
         <activity
-            android:name=".activity_edit_teacher"
-            android:exported="false" />
-        <activity
-            android:name=".activity_add_teacher"
-            android:exported="true">
+            android:name=".activity_start_screen"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity_edit_teacher"
+            android:exported="false" />
+        <activity
+            android:name=".activity_add_teacher"
+            android:exported="true">
+
         </activity>
         <activity
             android:name=".Upcomming_Event"
@@ -57,7 +62,7 @@
             android:exported="false" />
         <activity
             android:name=".MainActivity"
-            android:exported="true"></activity>
+            android:exported="true" />
     </application>
 
 </manifest>

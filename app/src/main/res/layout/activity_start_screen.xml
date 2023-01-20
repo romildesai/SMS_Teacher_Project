@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity_start_screen"
+    android:orientation="vertical"
+    android:background="@color/blue">
+
+  <com.airbnb.lottie.LottieAnimationView
+      android:layout_width="match_parent"
+      android:layout_height="250dp"
+      app:lottie_rawRes="@raw/start_screen"
+      app:lottie_autoPlay="true"
+      app:lottie_loop="true"
+      android:layout_marginTop="20dp"
+      android:layout_marginStart="20dp"
+      android:layout_marginEnd="20dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="300dp"
+        android:text="Learn Today And"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="360dp"
+        android:text="Have A Bright Future"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:text="Sign-UP"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp" />
+
+
+    <com.google.android.material.button.MaterialButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="520dp"
+        android:layout_marginEnd="130dp"
+        android:backgroundTint="@color/white"
+        android:gravity="center"
+        android:paddingVertical="15dp"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:text="Sign-In"
+        android:textColor="@color/blue"
+        android:textStyle="bold"
+        app:strokeColor="@color/white"
+        app:strokeWidth="3dp" />
+
+
+
+
+
+
+
+
+</RelativeLayout>
