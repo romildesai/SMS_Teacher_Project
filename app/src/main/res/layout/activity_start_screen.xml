@@ -40,38 +40,38 @@
         android:textStyle="bold"/>
 
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="450dp"
-        android:layout_marginEnd="130dp"
-        android:backgroundTint="@color/white"
-        android:gravity="center"
-        android:paddingVertical="15dp"
-        android:shadowRadius="@integer/material_motion_duration_long_1"
-        android:text="Sign-UP"
-        android:textColor="@color/blue"
-        android:textStyle="bold"
-        app:strokeColor="@color/white"
-        app:strokeWidth="3dp" />
+  <com.google.android.material.button.MaterialButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="450dp"
+      android:layout_centerHorizontal="true"
+      android:backgroundTint="@color/white"
+
+      android:paddingVertical="15dp"
+      android:shadowRadius="@integer/material_motion_duration_long_1"
+      android:text="Sign-UP"
+      android:elevation="5dp"
+      android:textColor="@color/blue"
+      android:textStyle="bold"
+      app:strokeColor="@color/white"
+      app:strokeWidth="3dp" />
 
 
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="130dp"
-        android:layout_marginTop="520dp"
-        android:layout_marginEnd="130dp"
-        android:backgroundTint="@color/white"
-        android:gravity="center"
-        android:paddingVertical="15dp"
-        android:shadowRadius="@integer/material_motion_duration_long_1"
-        android:text="Sign-In"
-        android:textColor="@color/blue"
-        android:textStyle="bold"
-        app:strokeColor="@color/white"
-        app:strokeWidth="3dp" />
+  <com.google.android.material.button.MaterialButton
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_centerHorizontal="true"
+      android:layout_marginTop="520dp"
+      android:backgroundTint="@color/white"
+
+      android:paddingVertical="15dp"
+      android:shadowRadius="@integer/material_motion_duration_long_1"
+      android:text="Sign-In"
+      android:elevation="5dp"
+      android:textColor="@color/blue"
+      android:textStyle="bold"
+      app:strokeColor="@color/white"
+      app:strokeWidth="3dp" />
 
 
 

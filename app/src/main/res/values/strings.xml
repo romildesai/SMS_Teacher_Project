@@ -10,9 +10,10 @@
     <string name="holidays">Holidays</string>
     <string name="submit">submit</string>
     <string name="internal_exam_results">Internal Exam Results :</string>
-    <string name="lecture_no" />
+
     <string name="title">title</string>
     <string name="select_a_file">select_a_file</string>
     <string name="forgot_password" />
+    <string name="lecture_no">Lecture_no</string>
 
 </resources>
