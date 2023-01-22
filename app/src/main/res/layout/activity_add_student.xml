@@ -67,6 +67,7 @@
             app:startIconDrawable="@drawable/ic_username"
             app:startIconTint="@color/black"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -152,36 +153,55 @@
                 android:textColor="@color/black"/>
         </com.google.android.material.textfield.TextInputLayout>
 
-        <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:layout_marginTop="20dp">
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:gravity="center">
 
             <ImageView
-                android:layout_width="wrap_content"
+                android:layout_width="50dp"
                 android:layout_height="match_parent"
-               android:src="@drawable/ic_gender"
-                app:startIconTint="@color/black"
-                android:layout_weight="1"
-                android:layout_marginStart="20dp"/>
+                android:src="@drawable/ic_gender"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="25dp"
+                />
 
-            <RadioButton
-                android:id="@+id/radio_male"
-                android:layout_width="wrap_content"
+            <RadioGroup
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Male"
-                android:textColor="@color/black"/>
-            <RadioButton
-                android:id="@+id/radio_female"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Female"
-                android:textColor="@color/black"/>
+                android:id="@+id/as_radiogroup"
+                android:layout_marginStart="10dp"
+                android:orientation="horizontal">
 
-        </RadioGroup>
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/as_male"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:buttonTint="@color/black"
+                    android:checked="true"
+                    android:padding="10dp"
+                    android:text="Male"
+                    android:textSize="15sp"
+                    android:textColor="@color/black"
+                    app:useMaterialThemeColors="true" />
+
+                <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/as_female"
+                    android:text="Female"
+                    android:padding="10dp"
+                    android:textSize="15sp"
+                    android:buttonTint="@color/black"
+                    android:textColor="@color/black"
+                    android:layout_weight="1"/>
+            </RadioGroup>
+        </LinearLayout>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/txt_dob"
