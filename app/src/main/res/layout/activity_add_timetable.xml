@@ -13,7 +13,6 @@ tools:context=".activity_add_timetable">
     android:padding="10dp">
 
     <androidx.appcompat.widget.LinearLayoutCompat
-        android:id="@+id/img_logo"
         android:layout_marginTop="20dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -27,7 +26,6 @@ tools:context=".activity_add_timetable">
     </androidx.appcompat.widget.LinearLayoutCompat>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/att_lec_no_field"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -39,7 +37,6 @@ tools:context=".activity_add_timetable">
         android:textColorHint="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/att_lec_no"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blue"
@@ -47,7 +44,6 @@ tools:context=".activity_add_timetable">
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/att_sub_name_field"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -59,7 +55,6 @@ tools:context=".activity_add_timetable">
         android:textColorHint="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/att_sub_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blue"
@@ -67,7 +62,6 @@ tools:context=".activity_add_timetable">
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/att_sub_code_field"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -79,7 +73,6 @@ tools:context=".activity_add_timetable">
         android:textColorHint="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/att_sub_code"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blue"
@@ -87,7 +80,6 @@ tools:context=".activity_add_timetable">
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/att_faculty_name_field"
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -98,7 +90,6 @@ tools:context=".activity_add_timetable">
         android:textColorHint="@color/black">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/att_faculty_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/blue"
@@ -106,7 +97,6 @@ tools:context=".activity_add_timetable">
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/att_time_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:startIconDrawable="@drawable/ic_timetable_time"
@@ -120,7 +110,6 @@ tools:context=".activity_add_timetable">
         android:hint="Time">
 
         <AutoCompleteTextView
-            android:id="@+id/att_time"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="none"
@@ -130,7 +119,6 @@ tools:context=".activity_add_timetable">
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/att_day_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:startIconDrawable="@drawable/ic_timetable_day"
@@ -144,7 +132,6 @@ tools:context=".activity_add_timetable">
         android:hint="Day">
 
         <AutoCompleteTextView
-            android:id="@+id/att_day"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="none"
@@ -153,7 +140,6 @@ tools:context=".activity_add_timetable">
 
     </com.google.android.material.textfield.TextInputLayout>
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/att_class_field"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:startIconDrawable="@drawable/ic_class"
@@ -167,7 +153,6 @@ tools:context=".activity_add_timetable">
         android:hint="Class">
 
         <AutoCompleteTextView
-            android:id="@+id/att_class"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:inputType="none"
@@ -178,7 +163,6 @@ tools:context=".activity_add_timetable">
 
 
     <com.google.android.material.button.MaterialButton
-        android:id="@+id/add_tt_btn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
@@ -190,7 +174,6 @@ tools:context=".activity_add_timetable">
         android:paddingHorizontal="60dp"
         android:paddingVertical="15dp"
         android:text="add"
-
         android:textColor="@color/white"
         app:cornerRadius="10dp"
         />

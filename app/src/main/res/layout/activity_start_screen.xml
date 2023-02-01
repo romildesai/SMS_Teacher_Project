@@ -46,7 +46,6 @@
       android:layout_marginTop="450dp"
       android:layout_centerHorizontal="true"
       android:backgroundTint="@color/white"
-
       android:paddingVertical="15dp"
       android:shadowRadius="@integer/material_motion_duration_long_1"
       android:text="Sign-UP"
@@ -63,7 +62,6 @@
       android:layout_centerHorizontal="true"
       android:layout_marginTop="520dp"
       android:backgroundTint="@color/white"
-
       android:paddingVertical="15dp"
       android:shadowRadius="@integer/material_motion_duration_long_1"
       android:text="Sign-In"
@@ -72,10 +70,6 @@
       android:textStyle="bold"
       app:strokeColor="@color/white"
       app:strokeWidth="3dp" />
-
-
-
-
 
 
 

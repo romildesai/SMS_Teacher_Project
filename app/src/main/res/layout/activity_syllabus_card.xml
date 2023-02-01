@@ -16,7 +16,6 @@
         android:orientation="vertical">
 
         <LinearLayout
-            android:id="@+id/llrow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
@@ -25,17 +24,14 @@
             android:weightSum="4">
 
             <ImageView
-                android:id="@+id/imagepdf"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
                 android:layout_weight="1"
-
                 android:background="@color/white"
                 android:src="@drawable/ic_pdf"
                 app:tint="@color/blue" />
 
             <TextView
-                android:id="@+id/chp_name"
                 android:layout_width="262dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="5sp"
@@ -43,7 +39,6 @@
                 android:text="Chp 1 : Terminologies "
                 android:textColor="@color/blue"
                 android:textSize="20sp" />
-
 
 
         </LinearLayout>

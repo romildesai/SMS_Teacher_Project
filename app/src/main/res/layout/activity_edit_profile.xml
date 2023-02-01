@@ -164,13 +164,13 @@
 
 
 
-            <RadioButton android:id="@+id/radio_pirates"
+            <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Male" />
 
-            <RadioButton android:id="@+id/radio_ninjas"
+            <RadioButton
                 android:layout_width="wrap_content"
                 android:layout_weight="1"
                 android:layout_height="wrap_content"
@@ -179,7 +179,6 @@
         </RadioGroup>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:id="@+id/txt_dob"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"

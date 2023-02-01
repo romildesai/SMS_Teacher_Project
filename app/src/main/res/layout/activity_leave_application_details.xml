@@ -111,7 +111,6 @@
 
 
         <Button
-            android:id="@+id/accept_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
@@ -127,7 +126,6 @@
             android:textColor="@color/white"
             app:cornerRadius="10dp" />
         <Button
-            android:id="@+id/reject_btn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
