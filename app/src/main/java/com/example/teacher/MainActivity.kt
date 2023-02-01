@@ -26,6 +26,8 @@ class MainActivity : AppCompatActivity() {
 
 
         supportActionBar!!.setBackgroundDrawable(ColorDrawable(Color.parseColor("#014f86")))
+        title="home"
+
 
         val syllabus= findViewById<CardView>(R.id.syllabus)
         syllabus.setOnClickListener{
