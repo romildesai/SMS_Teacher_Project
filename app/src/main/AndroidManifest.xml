@@ -52,9 +52,7 @@
         <activity
             android:name=".Student_List"
             android:exported="false" />
-        <activity
-            android:name=".Add_student"
-            android:exported="false"></activity>
+
         <activity
             android:name=".activity_forgot_password"
             android:exported="false" />

@@ -24,6 +24,7 @@
         android:orientation="horizontal">
 
         <androidx.cardview.widget.CardView
+            android:id="@+id/student_list"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/blue"
@@ -58,6 +59,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/syllabus"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/blue"
@@ -134,6 +136,7 @@
 
         </androidx.cardview.widget.CardView>
         <androidx.cardview.widget.CardView
+            android:id="@+id/marks"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/blue"

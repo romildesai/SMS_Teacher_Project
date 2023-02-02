@@ -26,6 +26,7 @@
         android:orientation="vertical">
 
         <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/addstudent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="20dp"
@@ -43,6 +44,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_fname"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="student full name"
@@ -68,6 +70,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_enrollment"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Enrollment number"
@@ -94,6 +97,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_email"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Email address"
@@ -119,6 +123,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_pass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Password"
@@ -143,6 +148,7 @@
             app:startIconTint="@color/black"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_cpass"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Confirm password"
@@ -168,13 +174,15 @@
                 />
 
             <RadioGroup
+
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/as_radiogroup"
+                android:id="@+id/as_gender"
                 android:layout_marginStart="10dp"
                 android:orientation="horizontal">
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/gen_as_male"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -187,6 +195,7 @@
                     app:useMaterialThemeColors="true" />
 
                 <com.google.android.material.radiobutton.MaterialRadioButton
+                    android:id="@+id/gen_as_female"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="Female"
@@ -216,6 +225,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/as_dob"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Date of birth"
@@ -242,6 +252,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_phone"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Phone number"
@@ -268,6 +279,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_semester"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Semester"
@@ -294,6 +306,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_class"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Class"
@@ -319,6 +332,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_branch"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="branch"
@@ -344,6 +358,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/txt_as_fees"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Fees status"
@@ -352,6 +367,7 @@
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
+            android:id="@+id/btn_addStudent"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
