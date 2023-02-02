@@ -10,7 +10,6 @@
     android:background="@color/white">
 
     <com.airbnb.lottie.LottieAnimationView
-        android:id="@+id/ac_animation"
         android:layout_width="200dp"
         android:layout_height="200dp"
         android:layout_gravity="center"
@@ -38,7 +37,6 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/title_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:hintTextColor="@color/blue"
@@ -61,11 +59,9 @@
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/ac_title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:inputType="text"
-
                     android:textColor="@color/blue"/>
 
             </com.google.android.material.textfield.TextInputLayout>
@@ -84,7 +80,6 @@
 
 
             <com.google.android.material.textfield.TextInputLayout
-                android:id="@+id/file_field"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 app:hintTextColor="@color/blue"
@@ -104,7 +99,6 @@
                 >
 
                 <com.google.android.material.textfield.TextInputEditText
-                    android:id="@+id/ac_file"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:focusable="false"
@@ -115,7 +109,6 @@
 
         </LinearLayout>
         <com.google.android.material.button.MaterialButton
-            android:id="@+id/upload_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"

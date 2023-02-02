@@ -5,7 +5,6 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@color/blue"
-    android:id="@+id/studentsbottomsheet"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <com.google.android.material.card.MaterialCardView
@@ -18,7 +17,6 @@
         app:cardUseCompatPadding="true">
 
         <androidx.appcompat.widget.LinearLayoutCompat
-            android:id="@+id/llrow"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center_vertical"
@@ -26,7 +24,6 @@
             android:padding="11dp">
 
             <com.google.android.material.imageview.ShapeableImageView
-                android:id="@+id/bc_profile"
                 android:layout_width="70dp"
                 android:layout_height="70dp"
                 app:shapeAppearance="@style/circle"
@@ -44,7 +41,6 @@
 
 
                 <TextView
-                    android:id="@+id/sb_fullname"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="romil desai"
@@ -58,7 +54,6 @@
                     android:orientation="horizontal"
                     android:layout_marginTop="5dp">
                     <TextView
-                        android:id="@+id/sb_username"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:text="Enrollment no"
@@ -87,7 +82,6 @@
             android:orientation="horizontal">
 
             <Button
-                android:id="@+id/view_btn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

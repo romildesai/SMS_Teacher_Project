@@ -14,18 +14,17 @@
         android:theme="@style/Theme.Teacher"
         tools:targetApi="31">
         <activity
+            android:name=".Add_Student"
+            android:exported="false" />
+        <activity
             android:name=".activity_manage_profile"
-            android:exported="true" >
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".activity_student_details"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".activity_app_info"
-            android:exported="true">
-        </activity>
+            android:exported="true"></activity>
         <activity
             android:name=".activity_leave_application_details"
             android:exported="false" />
@@ -54,8 +53,8 @@
             android:name=".Student_List"
             android:exported="false" />
         <activity
-            android:name=".activity_add_student"
-            android:exported="false" />
+            android:name=".Add_student"
+            android:exported="false"></activity>
         <activity
             android:name=".activity_forgot_password"
             android:exported="false" />

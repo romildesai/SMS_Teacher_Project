@@ -11,6 +11,7 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_timetable_sub_name.xml" value="0.1595" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/drawable/ic_username.xml" value="0.1705" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_student.xml" value="0.25025641025641027" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_student2.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_syllabus.xml" value="0.20277777777777778" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_teacher.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_add_time_table2.xml" value="0.25025641025641027" />
@@ -24,6 +25,7 @@
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_leave_application_list.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_login_page.xml" value="0.25025641025641027" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_main.xml" value="0.20277777777777778" />
+        <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_manage_profile.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_results.xml" value="0.11302083333333333" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_start_screen.xml" value="0.25416666666666665" />
         <entry key="..\:/Users/DELL/AndroidStudioProjects/SMS_Teacher_Project/app/src/main/res/layout/activity_student_details.xml" value="0.25416666666666665" />

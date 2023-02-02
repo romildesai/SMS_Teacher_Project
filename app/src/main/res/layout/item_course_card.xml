@@ -13,7 +13,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-
         android:orientation="horizontal">
 
         <androidx.appcompat.widget.LinearLayoutCompat
@@ -38,7 +37,6 @@
             android:orientation="vertical">
 
             <TextView
-                android:id="@+id/mc_sub_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -49,7 +47,6 @@
                 android:textSize="17sp" />
 
             <TextView
-                android:id="@+id/mc_fac_name"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -60,7 +57,6 @@
                 android:textSize="17sp" />
 
             <TextView
-                android:id="@+id/mc_sub_code"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"

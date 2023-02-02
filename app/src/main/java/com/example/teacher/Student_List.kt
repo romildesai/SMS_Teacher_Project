@@ -16,7 +16,7 @@ class Student_List : AppCompatActivity() {
 
         val ftb = findViewById<FloatingActionButton>(R.id.floating_addstudent)
         ftb.setOnClickListener {
-            val intent = Intent(this,activity_add_student::class.java)
+            val intent = Intent(this,Add_student::class.java)
             startActivity(intent)
         }
 
