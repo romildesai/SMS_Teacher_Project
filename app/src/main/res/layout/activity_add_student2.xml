@@ -225,7 +225,7 @@
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/as_dob"
+                android:id="@+id/txt_as_dob"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:hint="Date of birth"

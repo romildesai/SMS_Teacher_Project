@@ -7,7 +7,7 @@ class StudentModel(
     var email:String? = null,
     var pass:String? = null,
     var gender:String?= null,
-    var bob:String?= null,
+    var dob:String?= null,
     var phone:String?= null,
     var semester:String?=null,
     var cls:String?=null,
