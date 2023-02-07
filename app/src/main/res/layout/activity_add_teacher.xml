@@ -11,7 +11,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        android:src="@drawable/add_student"
+        android:src="@drawable/add_teacher"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="10dp"
         android:layout_gravity="center"/>
