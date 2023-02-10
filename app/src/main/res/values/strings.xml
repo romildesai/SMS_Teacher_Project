@@ -15,5 +15,7 @@
     <string name="select_a_file">select_a_file</string>
     <string name="forgot_password" />
     <string name="lecture_no">Lecture_no</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
 
 </resources>

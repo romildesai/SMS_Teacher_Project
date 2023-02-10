@@ -43,7 +43,7 @@ class Add_Student : AppCompatActivity() {
         enroll = findViewById(R.id.txt_as_enrollment)
         email = findViewById(R.id.txt_as_email)
         pass = findViewById(R.id.txt_as_pass)
-        gender = findViewById(R.id.as_gender)
+        male_as = findViewById(R.id.as_gender)
         dob = findViewById(R.id.txt_as_dob)
         phone = findViewById(R.id.txt_as_phone)
         sem = findViewById(R.id.txt_as_semester)
@@ -56,6 +56,17 @@ class Add_Student : AppCompatActivity() {
         btn_addstud = findViewById(R.id.btn_addStudent)
         Dbref = FirebaseDatabase.getInstance().getReference("Student")
 
+        gender.setOnCheckedChangeListener { group, i ->
+            if (i == R.id.gen_as_male)
+            {
+
+                Toast.makeText(this, "male", Toast.LENGTH_SHORT).show()
+            }
+            if (i == R.id.gen_as_female)
+            {
+                Toast.makeText(this, "female", Toast.LENGTH_SHORT).show()
+            }
+        }
         btn_addstud.setOnClickListener {
             saveStudentData()
         }
@@ -69,13 +80,10 @@ class Add_Student : AppCompatActivity() {
             val datePickerDialog = DatePickerDialog(
                 this,
                 { view, year, monthOfYear, dayOfMonth ->
-                    // on below line we are setting
-                    // date to our edit text.
+
                     val dat = (dayOfMonth.toString() + "-" + (monthOfYear + 1) + "-" + year)
                     dob.setText(dat)
                 },
-                // on below line we are passing year, month
-                // and day for the selected date in our date picker.
                 year,
                 month,
                 day
@@ -94,7 +102,7 @@ class Add_Student : AppCompatActivity() {
         val enrollment = enroll.text.toString()
         val email = email.text.toString()
         val password = pass.text.toString()
-        val gen = gender.toString()
+        val gen = ""
         if (male_as.isChecked())
         {
 
@@ -104,13 +112,13 @@ class Add_Student : AppCompatActivity() {
 
 
 
-        val Student = StudentModel(fullname,enrollment,email,password,Dob)
+        val Student = StudentModel(fullname,enrollment,email,password,gen,Dob)
 
         Dbref.child(enrollment).setValue(Student)
             .addOnCompleteListener{
                 Toast.makeText(this, "Student Record Added", Toast.LENGTH_SHORT).show()
-
-
+                val intent = Intent(this,Student_List::class.java)
+                startActivity(intent)
 
             }
             .addOnFailureListener{err ->
