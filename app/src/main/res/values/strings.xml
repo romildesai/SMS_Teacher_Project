@@ -17,5 +17,8 @@
     <string name="lecture_no">Lecture_no</string>
     <string name="male">Male</string>
     <string name="female">Female</string>
+    <string name="branch">branch</string>
+    <string name="paid">Paid</string>
+    <string name="unpaid">Unpaid</string>
 
 </resources>
