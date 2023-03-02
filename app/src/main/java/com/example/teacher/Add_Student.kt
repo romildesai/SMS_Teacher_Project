@@ -5,12 +5,10 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.icu.util.Calendar
+import android.net.Uri
 import android.os.Bundle
-import android.text.TextUtils
-import android.widget.Button
-import android.widget.EditText
-import android.widget.RadioGroup
-import android.widget.Toast
+import android.view.View
+import android.widget.*
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.material.radiobutton.MaterialRadioButton
 import com.google.firebase.database.DatabaseReference
@@ -31,6 +29,8 @@ class Add_Student : AppCompatActivity() {
     private lateinit var fees_paid: MaterialRadioButton
     private lateinit var male_as: MaterialRadioButton
     private lateinit var female_as: MaterialRadioButton
+    private lateinit var profile_as:ImageView
+    private lateinit var uri:Uri
 
 
 
@@ -74,9 +74,16 @@ class Add_Student : AppCompatActivity() {
             saveStudentData()
 
             val email = email.text.toString()
-
-
         }
+        profile_as.setOnClickListener(View.OnClickListener{
+            val intent = Intent()
+            intent.action = Intent.ACTION_GET_CONTENT
+            intent.type = "image/*"
+            startActivityForResult(intent, 2)
+
+
+            })
+
 
         dob.setOnClickListener {
             val c = Calendar.getInstance()
